@@ -1,5 +1,5 @@
 app_name = "uav_logistic"
-app_title = "A-techSYN UAV Logistic Management"
+app_title = "UAV Logistic Management"
 app_publisher = "DAXAP AS"
 app_description = "UAV Logistic Management"
 app_email = "aki@daxap.io"
