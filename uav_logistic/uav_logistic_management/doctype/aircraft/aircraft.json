@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-25 21:01:38.209337",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_76nh",
+  "tail_no",
+  "year_of_manufacture",
+  "capacity",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_76nh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tail_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tail No",
+   "not_nullable": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "year_of_manufacture",
+   "fieldtype": "Int",
+   "label": "Year of Manufacture",
+   "non_negative": 1,
+   "not_nullable": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Float",
+   "label": "Capacity",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nMaintenance\nRetired",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-25 21:36:43.980922",
+ "modified_by": "Administrator",
+ "module": "UAV Logistic Management",
+ "name": "Aircraft",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
